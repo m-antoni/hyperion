@@ -1,0 +1,1155 @@
+/* COLOR PALLETE USED IN THE SYSTEM */
+.color-variations{
+    color: #1d2129; 
+    color: #2a3133;
+    color: #0e566c;
+    color: #00acc1;
+    color: #ffff00;
+    color: #ea454b;
+    color: #db4437;
+    color: dimgrey;
+ }    
+
+/* GLOBAL SETTING */
+
+
+/* INDEX VIDEO BACKGROUND STYLE */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background-wrap{
+    position: relative;
+    z-index: -1000;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+
+}
+#video-bg-elem{
+    position: relative;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+}
+.header-content{
+    position: absolute;
+    z-index: 1000;
+}
+
+
+
+/* NAVIGATION LINKS FOR EVERY CONTENT */
+#navbar-site{
+    background-color: #2a3133;
+}
+#navbar-site a {
+    color: #00acc1;
+}
+#navbar-site a:hover{
+    color: #ffffff;
+    border-bottom: 1px solid white;
+}
+
+/* error handling */
+.error{
+    color: yellow;
+}
+
+/* lightbox setting */
+.lightbox .lb-image{
+    padding: 0;
+    background-color: #1d2129;
+}
+
+
+
+/* INDEX BACKGROUND VIDEO  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* ADMIN SECTION*/
+#admin .message{
+    margin-top: 70px;
+    margin-left: 130px;
+}
+
+/* USERS NAVIGATION */
+#user_navigation #sideBar{
+    background-color: #ea454b;
+}
+
+#user_navigation .ui.sidebar.menu a.item:hover{
+    background-color:  #db4437;
+}
+
+/*  ADMIN TOP NAVIGATION BAR */
+#admin-top-nav{
+    background-color: #2a3133;
+}
+#admin-top-nav .navbar-nav a{
+    font-weight: 600;
+}
+#admin-top-nav .navbar-nav a:hover{
+    color: white;
+}
+/* ADMIN-CMS */
+#admin-cms{
+    margin-top: 80px;
+}
+
+/* SETTING SECTION OF ADMIN */
+#setting{
+    margin-top: 50px;
+}
+#setting .table{
+    width: 500px;
+    font-size: 1em;
+    border-left: 10px solid #ea454b;
+}
+#setting #settingImg{
+    height: 120px;
+}
+
+/* USER-INDEX STYLE */
+#user-index{
+    height: 100%;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+#user_name{
+    background-color: #ffe21f;
+    color: black;
+}
+#alert-mac{
+    background-color: #9f3a38;
+    color: white;
+}
+#alert-alienware{
+    background-color: #2a3133;
+    color: white;
+}
+#services{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+/* LOG IN SECTION */
+#login{
+    background: url("../img/login.jpg") center no-repeat fixed;
+    background-size: cover;
+}
+#login-nav{
+    background-color: #2a3133;
+    height: 50px;
+}
+#login-nav ul li{
+    padding: 5px;
+    display: inline-block;
+}
+#login-nav ul li a{
+    padding: 5px;
+}
+
+#login-nav .rightSide{
+    top: 0;
+    position: absolute;
+    float: right;
+    margin: 4px;
+    right: 0;
+}
+#login-nav li img{
+    height: 35px;
+}
+#login-nav .time{
+    font-size: 1em;
+    font-weight: 600;
+    color: white;
+}
+#login_form img{
+    height: 120px;
+}
+#login_form{
+    margin-top: 50px;
+    padding: 15px 30px 30px 30px;
+    background-color: rgba(0,0,0,.9);
+    border-left: 8px solid orangered;
+    border-right: 8px solid orangered;
+}
+#login_form input{
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+}
+#login_form button{
+    padding: 5px;
+}
+
+#login_form label{
+    font-size: 1.2em;
+    color: white;
+    padding-left: 5px;
+}
+#login_form p{
+    text-align: center;
+    color: white;
+}
+#login_form p a{
+    color: #00e5ff;
+}
+
+/* SIGNUP FORM STYLE */
+#signup{
+    background-color: #f50057;
+    margin-bottom: 50px;
+}
+#signup_form{
+    width: 550px;
+    background-color: white;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+    margin-top: 30px;
+    padding: 20px 0 30px 40px;
+}
+
+#signup_form label{
+    font-weight: 600;
+}
+#signup-nav{
+    background-color: #2a3133;
+    height: 50px;
+}
+#signup-nav ul li{
+    padding: 5px;
+    display: inline-block;
+}
+#signup-nav #leftSide{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    padding: 10px;
+}
+
+#signup-nav .rightSide{
+    top: 0;
+    position: absolute;
+    float: right;
+    margin: 4px;
+    right: 0;
+}
+#signup-nav li img{
+    height: 35px;
+}
+#signup-nav .time{
+    font-size: 1em;
+    font-weight: 600;
+    color: white;
+}
+
+/* ADD TO CART SECTION */
+#addToCart h2{
+    margin-top: 60px;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+#addToCart .btn-outline-success{
+    padding: 5px;
+}
+#addToCart .container .row{
+    margin-bottom: 20px;
+}
+#addToCart .container .row .cart-inside{
+    padding: 20px;
+    background-color: #2a3133
+}
+#addToCart .container .row .cart-inside h3{
+    font-size: 1.2em;
+    color: yellow;
+}
+#addToCart .container .row .cart-inside input{
+    background-color:#ea454b;
+    color: white;
+    font-weight: 600;
+}
+#addToCart .container .row .cart-inside p{
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+/* HOMEPAGE SECTION */
+.navbar-toggleable-lg {
+    background-color: #2a3133;
+}
+#index_page #header_index{
+    background: url(../img/index.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+#index_page .text-center{
+    background-color: rgba(0,0,0,.6);
+    width:  100%;
+    position: absolute;
+    padding: 20px;
+    top: 25%;
+    color: #ffffff;
+}
+ #index_page .text-center .lead{
+    color: antiquewhite;
+}
+ #index_page .text-center .btnHomepage a{
+     margin: 5px;
+ }
+#index_page #welcome button:hover{
+    background-color: #2a3133;
+}
+#index_page #welcome .welcome_brand{
+    font-weight: 500;
+    color: #dc143c;
+}
+#index_page .navbar-brand{
+    color: #dc143c;
+    font-weight: 600;
+}
+#index_page .navbar-brand:hover{
+    color: white;
+}
+
+/* GALLERY SECTION */
+#gallery_section{
+    margin-top: 150px;
+}
+#gallery_section .col-sm-4{
+    opacity: .8;
+}
+#gallery_section .col-sm-6{
+    opacity: .8;
+}
+#gallery_section .col-sm-4:hover{
+   opacity: 1;
+}
+#gallery_section .col-sm-6:hover{
+    opacity: 1;
+}
+
+#gallery_section .col-sm-6{
+    position: relative;
+}
+
+#gallery_section #img-1 ,#img-2, #img-3, #img-4 ,#img-5,
+    #img-6, #img-7, #img-8, #img-9, #img-10, #img-11, #img-12{
+    background-color: #dc143c;
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-size: 1.5em;
+    color: white;
+}
+
+/* COMPANY LOGOS */
+ #companyLogos{
+     margin-top: 150px;
+     margin-bottom: 150px;
+     padding: 70px;
+ }
+#gallery-01 .container, #gallery-02 .container, #gallery-03 .container, #gallery-04 .container,
+#gallery-05 .container, #gallery-06 .container, #gallery-07 .container, #gallery-08 .container,
+#gallery-09 .container, #gallery-10 .container, #gallery-11 .container, #gallery-12 .container{
+    padding: 20px;
+}
+
+/* MODAL SECTION PAYMENT STYLES */
+#index_page #modal .modal-inside {
+    padding: 1em;
+}
+
+/* CAROUSEL FEATURED */
+#carouselFeatured .carousel-item img{
+    /* THIS WILL MAKE THE CAROUSEL RESPONSIVE */
+    width: 100%;
+    height: 100%;
+}
+#carouselFeatured .carousel-item .carousel-caption{
+    margin-bottom: 20px;
+    padding: 10px;
+    border-left: 8px solid #dc143c;
+    border-right: 8px solid #dc143c;
+    background-color: rgba(0,0,0,.7);
+}
+
+
+/* COMMENT SECTION STYLES */
+#index_page #comment-section{
+    background: url("../img/comments.jpg") no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    padding: 50px;
+    margin-top: 100px;
+}
+
+#index_page #comment-section form{
+    background-color: rgba(0,0,0,.4);
+    padding: 20px 10px 10px 10px;
+    margin-top: 150px;
+    width: 100%;
+    border-left: 7px solid #00acc1;
+}
+#index_page #comment-section .row label{
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+#index_page #comment-section .row input{
+    font-weight: normal;
+    color: black;
+    font-size: 1.2em;
+}
+
+#index_page #comment-section{
+    line-height: 1em;
+}
+#index_page #comment-section #form-comment .btnCom{
+    color: white;
+}
+
+/* MODAL SECTION EVENT VIDEO STYLES */
+#event-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+ #event-section .ea-h4{
+    font-weight: 600;
+    color: #00acc1;
+}
+#event-section .events-links{
+    font-weight: 600;
+}
+
+/* INVENTORY SECTION */
+#inventory .tableTitle{
+    background-color: #00b0ff;
+    color: black;
+    padding: 10px;
+}
+#inventory .tableRows a{
+    color: black;
+}
+#inventory #products-pdf{
+    margin-left: 10px;
+}
+#inventory #products-pdf a{
+    margin-bottom: 30px;
+}
+
+/* USER ACCOUNT RECORDS */
+#view_record .container .table .tableTitle{
+    background-color: #ffe21f;
+    color: #0f192a;
+}
+
+/*COMMENTS RECORDS SECTION*/
+#comments-records table{
+        margin-bottom: 100px;
+    }
+#comments-records .container .row .table .tableTitle{
+    background-color: #0f192a;
+    color: white;
+}
+
+#comments-records .container .table .tableRows a{
+    color: black;
+}
+
+#comments-records #sendSMS form{
+    padding: 10px;
+    background-color: #0f0f10;
+    border-radius: 0 10px 10px 0;
+    border-left: 5px solid #ea454b;
+    margin-bottom: 70px;
+}
+#comments-records #sendSMS form label, #comments-records #sendSMS form h3 {
+    font-weight: 600;
+    color: white;
+}
+
+
+/* COMMENTS RECORDS (REPLY SECTION)*/
+#comments-records .ui .form label{
+    color: yellow;
+    font-size: 1.5em;
+}
+#comments-records .ui .form input{
+    font-size: 1.2em;
+    background-color: #2a3133;
+    color: white;
+}
+#comments-records #r-para{
+    color: white;
+    font-size: 1em;
+}
+ /* PAYMENT TERMS */
+ #btn-payment{
+     background-color: #ffff00;
+     color: black;
+ }
+
+/* CHECK OUT SECTION */
+#cash_on_delivery{
+    margin-top: 100px;
+    margin-bottom: 70px;
+    font-weight: 500;
+}
+#cash_on_delivery table th{
+    color: #db4437;
+}
+#cash_on_delivery table{
+    font-size: 1em;
+    border-left: 5px solid #0e566c;
+}
+#cash_on_delivery table td{
+    padding-left: 20px;
+}
+
+#cash_on_delivery .total-price{
+    background-color: #ea454b;
+    color: black;
+}
+
+#cash_on_delivery .table-fields{
+    background-color: #2a3133;
+    color: white;
+}
+
+/* PROMO IMG SECTIONS */
+#promoImg{
+    margin-top: 150px;
+}
+
+ /* FEDEX SECTION */
+ #fedex{
+     margin-top: 150px;
+ }
+ #fed_word{
+     color: orangered;
+     font-weight: bold;
+     font-size: 1.5em;
+ }
+ #fedex .fedexDetails{
+     font-size: 1.1em;
+     text-align: justify;
+     margin-bottom: 20px;
+ }
+ #fedex .fedexLinks{
+     font-weight: 600;
+     text-align: center;
+    font-size: 1.3em;
+ }
+
+ /* FOOTER SECTTION STYLE */
+ #footer{
+     background-color: #0f192a;
+     color: #ea454b;
+     padding-top: 20px;
+ }
+ #footer .footerIcons a{
+     text-decoration: none;
+     color: #ea454b;
+ }
+ #footer .footerIcons a:hover{
+     color: white;
+ }
+ #footer .footerIcons a i:hover {
+     transform: scale(1.2);
+ }
+ #footer .footerInfo{
+     margin-top: 30px;
+ }
+ #footer .footerInfo p:nth-child(3){
+     color: #ffffff;
+ }
+ #footer .footerAddress p{
+     font-size: 1.3em;
+ }
+ #footer .footerEmail p{
+     font-size: 1em;
+ }
+ #footer .footerEmail input{
+     background-color: #2a3133;
+     color: #00b0ff;
+     width: 250px;
+ }
+ #footer .rightsReserved{
+     background-color: #0f0f10;
+     width: 100%;
+     margin-top: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+ }
+ #footer .rightsReserved p{
+     font-size: .8em;
+     text-align: center;
+     color: #00b0ff;
+ }
+ /* TECH_SUPPORT STYLE */
+#tech_support{
+    margin-top: 60px;
+}
+#tech_support table .tableTitle{
+    background-color: crimson;
+    color: white;
+}
+
+/* NEWS STYLE */
+#news{
+    margin-top: 60px;
+}
+#news .tableTitle{
+    background-color: #9f3a38;
+    color: white;
+}
+/* GOOGLE MAP */
+#storeMap{
+        margin-top: 150px;
+        margin-bottom: 150px;
+}
+ #storeMap .mapText{
+        margin-top: 10px;
+        color: orange;
+    }
+#storeMap .mapText p{
+        font-size: 1.2em;
+        color: black;
+}
+/* Small devices (phones, 576px and up) */
+@media (max-width: 575px){
+    #admin-top-nav{
+        display: none;
+    }
+    #admin-navigation, #admin-navigation-02{
+      display: none  
+    }
+    /* LOGIN STYLE MOBILE  */
+    #login_form label{
+        font-size: 1em;
+        color: white;
+        padding-left: 4px;
+    }
+    #login_form img{
+        height: 100px;
+    }
+    #login_form p{
+        font-size: 1em;
+    }
+    #login_form{
+        margin-top: 40px;
+        background-color: rgba(0,0,0,.9);
+        padding: 20px 30px 30px 30px;
+        border-top: 7px solid #ffff00;
+        border-bottom: 7px solid #ffff00;
+        border-left: none;
+        border-right: none;
+    }
+    /* INVENTORY SECTION*/
+    #inventory h1{
+        font-size: 1em;
+        margin-top: 40px;
+    }
+    #inventory table {
+        font-size: .7em;
+        margin-bottom: 20px;
+    }
+    #inventory .details{
+        display:none
+    }
+    /*USER ACCOUNTS SECTION*/
+    .user_address{
+        display: none;
+    }
+    #view_record h1{
+        font-size: .8em;
+        margin-top: 40px;
+        color: black;
+    }
+    #view_record .container .table{
+        font-size: .8em;
+    }
+    /* COMMENTS RECORDS */
+    #comments-records{
+        margin-top: 50px;
+    }
+    #comments-records h1{
+        color: black;
+        font-size: 1em;
+    }
+    #comments-records table{
+        font-size: .7em;
+        margin-bottom: 50px;
+    }
+    .comments_email{
+        display: none;
+    }
+     /* ADD TO CART SECTION */
+     #user_navigation{
+        display: none;
+    }
+    /* CHECK OUT SECTION */
+    #cash_on_delivery table{
+        font-size: .8em;
+        border-left: none;
+    }
+    #cash_on_delivery h1{
+        font-size: 1.2em;
+    }
+    /* CUSTOMER NEEDS SLOGANS */
+    #customer_needs{
+        margin-top: 50px;
+    }
+    #customer_needs h1{
+        padding: 5px;
+        font-size: 2em;
+    }
+    #customer_needs .side_border{
+        margin-top: 10px;
+        padding-left: 10px;
+        border-left: 4px solid #dc143c;
+    }
+    #customer_needs .side_border p{
+        font-size: 1em;
+    }
+    /* GALLERY SECTION */
+    #gallery_section{
+        margin-top: 50px;
+    }
+    /* COMPANY LOGOS */
+    #companyLogos{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 20px;
+    }
+    /* EVENT SECTION */
+    #event-section h4{
+        margin-bottom: 10px;
+        font-size: 2em;
+    }
+    #event-section p{
+        font-size: 1em;
+        margin-bottom: 15px;
+    }
+    /* PAYMENT TERMS */
+    #paymentTerms {
+        margin-top: 100px;
+    }
+    #paymentTerms h1{
+        text-align: center;
+        font-size: 1.8em;
+        padding: 10px;
+        margin: 50px 0 0 0;
+    }
+    #paymentTerms #btn-payment{
+        left: 30%;
+    }
+    #paymentTerms .card_1, #paymentTerms .card_2{
+        padding: 40px;
+    }
+    /* FOOTER ICONS */
+    #footer .footerIcons{
+        padding-left: 20%;
+    }
+    /* FOOTER ADDRESS */
+    #footer .footerAddress{
+        padding-left: 20%;
+        margin-bottom: 20px;
+    }
+    #footer .footerAddress p{
+        font-size: 1em;
+    }
+    /* FOOTER EMAIL */
+    #footer .footerEmail{
+        padding-left: 20%;
+    }
+    /* TECH_SUPPORT STYLE */
+    #tech_support h1{
+        font-size: 1.2em;
+    }
+     /* GOOGLE MAP */
+    #storeMap #largeMap, #storeMap #mediumMap{
+        display: none;
+   }
+    #storeMap .mapText{
+        margin-top: 10px;
+        margin-bottom: 40px;
+        color: orange;
+    }
+    /* USER-INDEX */
+    #user-index .shipping{
+        margin-top: 0;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px){
+    #admin-top-nav{
+        display: none;
+    }
+    #admin-navigation , #admin-navigation-03{
+    display: none
+    }
+    /* INVENTORY  SECTION*/
+    #inventory h1{
+        margin-top: 40px;
+        font-size: 1em;
+    }
+    #inventory table {
+        font-size: .8em;
+        margin-bottom: 20px;
+    }
+    /*USER ACCOUNTS SECTION*/
+    .user_address{
+        display: none;
+    }
+    #view_record h1{
+        font-size: 1em;
+        margin-top: 40px;
+        color: black;
+    }
+    #view_record .container .table{
+        font-size: 1em;
+    }
+    /* COMMENTS RECORDS */
+    #comments-records{
+        margin-top: 60px;
+    }
+    #comments-records h1{
+        color: black;
+        font-size: 1em;
+    }
+    #comments-records table{
+        font-size: .9em;
+        margin-bottom: 50px;
+    }
+    .comments_email{
+        display: none;
+    }
+     /* ADD TO CART SECTION */
+     #user_navigation{
+        display: none;
+    }
+    /* CHECK OUT SECTION */
+    #cash_on_delivery table{
+        font-size: .9em;
+        border-left: 5px solid #0e566c;
+    }
+    #cash_on_delivery h1{
+        font-size: 1.5em;
+    }
+    /* CUSTOMER NEEDS SLOGANS */
+    #customer_needs{
+        margin-top: 50px;
+    }
+    #customer_needs h1{
+        padding: 5px;
+        font-size: 2em;
+    }
+    #customer_needs .side_border{
+        margin-top: 10px;
+        padding-left: 10px;
+        border-left: 4px solid #dc143c;
+    }
+    #customer_needs .side_border p{
+        font-size: 1.2em;
+    }
+    /* GALLERY SECTION */
+    #gallery_section{
+        margin-top: 70px;
+    }
+    /* COMPANY LOGOS */
+    #companyLogos{
+        margin-top: 50px;
+        margin-bottom: 70px;
+        padding: 20px;
+    }
+    /* EVENT SECTION */
+    #event-section h4{
+        margin-bottom: 10px;
+        font-size: 2em;
+    }
+    #event-section p{
+        font-size: 1.2em;
+        margin-bottom: 15px;
+    }
+    /* PAYMENT TERMS */
+    #paymentTerms {
+        margin-top: 100px;
+    }
+    #payments_para{
+        width: 200px;
+    }
+
+    /* FOOTER ADDRESS */
+    #footer .footerAddress{
+        padding-left: 20px;
+    }
+    #footer .footerAddress p{
+        font-size: 1em;
+    }
+    /* TECH_SUPPORT STYLE */
+    #tech_support h1{
+        font-size: 1.5em;
+    }
+    /* GOOGLE MAP */
+    #storeMap #largeMap ,#storeMap #smallMap {
+        display: none;
+   }
+    #storeMap .mapText{
+        margin-top: 10px;
+        margin-bottom: 40px;
+        color: orange;
+    }
+    /* USER-INDEX */
+    #user-index .shipping{
+        margin-top: 0;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px){
+    #admin-top-nav{
+        display: none;
+    }
+    #admin-navigation, #admin-navigation-03{
+      display: none  
+    }
+    /* INVENTORY SECTION*/
+    #inventory h1{
+        margin-top: 40px;
+    }
+    #inventory table {
+        font-size: .9em;
+        margin-bottom: 30px;
+    }
+    /* USER ACCOUNTS RECORDS */
+    #view_record h1{
+        margin-top: 40px;
+        color: black;
+    }
+    /* COMMENTS RECORDS */
+    #comments-records{
+        margin-top: 40px;
+    }
+    #comments-records h1{
+        color: black;
+    }
+    #comments-records table{
+        font-size: .9em;
+        margin-bottom: 50px;
+    }
+     /* ADD TO CART SECTION */
+     #user_navigation02{
+        display: none;
+    }
+    /* CHECK OUT SECTION */
+    #cash_on_delivery table{
+        font-size: .9em;
+        border-left: 5px solid #0e566c;
+    }
+    #cash_on_delivery h1{
+        font-size: 1.8em;
+    }
+    /* CUSTOMER NEEDS SLOGANS */
+    #customer_needs{
+        margin-top: 50px;
+    }
+    #customer_needs h1{
+        font-size: 1.6em;
+    }
+    #customer_needs .side_border{
+        margin-top: 15px;
+        padding-left: 10px;
+        border-left: 4px solid #dc143c;
+    }
+    #customer_needs .side_border p{
+        font-size: .9em;
+    }
+    /* GALLERY SECTION */
+    #gallery_section{
+        margin-top: 100px;
+    }
+    /* COMPANY LOGOS */
+    #companyLogos{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        padding: 50px;
+    }
+    /* EVENT SECTION */
+    #event-section{
+        margin-top: 120px;
+    }
+    #event-section h4{
+        margin-bottom: 15px;
+        font-size: 2em;
+    }
+    #event-section p{
+        font-size: 1em;
+    }
+    /* PAYMENT TERMS */
+    #paymentTerms {
+        margin-top: 120px;
+    }
+    #paymentTerms h1{
+        font-size: 1.8em;
+        padding: 10px;
+        margin: 10px 0 0 0;
+    }
+    #paymentTerms .card_3{
+        margin-left: 50px;
+    }
+    /* FOOTER ADDRESS */
+    #footer .footerAddress{
+        padding-left: 50px;
+    }
+    /* TECH_SUPPORT STYLE */
+    #tech_support h1{
+        font-size: 2em;
+    }
+    /* GOOGLE MAP */
+    #storeMap #largeMap, #storeMap #smallMap{
+        display: none;
+   }
+    /* USER-INDEX */
+    #user-index .shipping{
+        margin-top: 0;
+    }
+
+ }
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px){
+    #admin-navigation-02 , #admin-navigation-03{
+        display: none
+    }
+    /* ADMIN SECTION STYLE */
+    #setting h1{
+        margin-top: 40px;
+    }
+    /* INVENTORY  SECTION*/
+    #inventory h1{
+        margin-top: 60px;
+    }
+    #inventory table {
+        font-size: 1em;
+        margin-bottom: 30px;
+    }
+    /* USER ACCOUNTS RECORDS */
+    #view_record h1{
+        margin-top: 60px;
+        color: black;
+    }
+    #view_record .container .table{
+        font-size: 1em;
+    }
+    /* COMMENTS RECORDS */
+    #comments-records h1{
+        margin-top: 60px;
+        color: black;
+    }
+    #comments-records table{
+        font-size: 1em;
+        margin-bottom: 50px;
+    }
+    /* ADD TO CART SECTION */
+    #user_navigation02{
+        display: none;
+    }
+    /* CHECK OUT SECTION*/
+    #cash_on_delivery table{
+        font-size: 1em;
+        border-left: 5px solid #0e566c;
+    }
+    #cash_on_delivery h1{
+        font-size: 2em;
+    }
+    /* CUSTOMER NEEDS SLOGANS */
+    #customer_needs{
+        margin-top: 100px;
+        padding: 0 40px 0 40px;
+    }
+    #customer_needs h1{
+        font-size: 2.5em;
+    }
+    #customer_needs .side_border{
+        margin-top: 15px;
+        padding-left: 30px;
+        border-left: 7px solid #dc143c;
+    }
+    #customer_needs .side_border p{
+        font-size: 1.2em;
+    }
+    #companyLogos{
+        border-left: 7px solid dimgrey;
+        border-right: 7px solid dimgrey;
+    }
+    /* EVENT SECTION */
+    #event-section{
+        margin-top: 150px;
+    }
+    #event-section h4{
+        margin-bottom: 20px;
+    }
+    #event-section p{
+        font-size: 1.2em;
+    }
+    /* PAYMENT TERMS */
+    #paymentTerms {
+        margin-top: 150px;
+    }
+    #paymentTerms h1{
+        font-size: 1.4em;
+        font-weight: 600;
+        padding: 10px;
+        margin: 10px 0 0 0;
+    }
+    /* TECH_SUPPORT STYLE */
+    #tech_support h1{
+        color: black;
+    }
+    #tech_support table{
+        font-size: 1em;
+        margin-bottom: 50px;
+    }
+    /* GOOGLE MAP STYLE */
+   #storeMap #mediumMap, #storeMap #smallMap{
+        display: none;
+   }
+   /* USER-INDEX */
+   #user-index .shipping{
+        margin-top: 70px;
+   }
+   
+}
+
+
+
