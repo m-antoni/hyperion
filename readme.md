@@ -3,6 +3,8 @@
 
 <a href="http://www.hyperion-company.epizy.com" target="_blank">visit here</a>
 
+Email me : codehive2018@gmail.com
+
 <p>Languages/Frameworks/Libraries</p>
   <ul>
     <li>PHP</li>
