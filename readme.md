@@ -5,19 +5,25 @@
 
 <a href="http://www.hyperion-company.epizy.com" target="_blank">view here</a>
 
-<h2>Languages/Frameworks/Libraries</h2>
+<p>Languages/Frameworks/Libraries</p>
+  <ul>
+    <li>PHP</li>
+    <li>CSS</li>
+    <li>JQUERY</li>
+    <li>Booststrap</li>
+    <li>MaterializeCSS (for login design)</li>
+    <li>Semantic UI (for backend design)</li>
+    <li>iziModal</li>
+    <li>TCPDF</li>
+    <li>stripe api</li>
+  </ul>
 
-- PHP
-- CSS
-- Booststrap
-- MaterializeCSS (for login design)
-- Semantic UI (for admin panel)
-- iziModal 
-- TCPDF
-- stripe api
+<p>Project Features</p>
 
-Features
-- Login Validation
-- Payment using stripe api
-- Database Management for users
-- Appointment messaging
+<ul>
+  <li>Login Validation</li>
+  <li>Add to cart</li>
+  <li>Payment using stripe api</li>
+  <li>Database Management</li>
+  <li>Appointment messaging</li>
+</ul>
