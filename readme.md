@@ -11,6 +11,7 @@ Email me : codehive2018@gmail.com
   <li>Responsive design</li>
   <li>Login Validation</li>
   <li>Add to cart</li>
+  <li>MySQL (Database)</li>
   <li>Payment using stripe api</li>
   <li>Appointment messaging</li>
 </ul>
