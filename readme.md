@@ -5,19 +5,6 @@
 
 Email me : codehive2018@gmail.com
 
-<p>Languages/Frameworks/Libraries</p>
-  <ul>
-    <li>PHP</li>
-    <li>CSS</li>
-    <li>JQUERY</li>
-    <li>Booststrap</li>
-    <li>MaterializeCSS (for login design)</li>
-    <li>Semantic UI (for backend design)</li>
-    <li>iziModal</li>
-    <li>TCPDF</li>
-    <li>stripe api</li>
-  </ul>
-
 <p>Project Features</p>
 
 <ul>
@@ -25,7 +12,6 @@ Email me : codehive2018@gmail.com
   <li>Login Validation</li>
   <li>Add to cart</li>
   <li>Payment using stripe api</li>
-  <li>Database Management</li>
   <li>Appointment messaging</li>
 </ul>
 
