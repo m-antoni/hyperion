@@ -1,7 +1,6 @@
-## Online Laptop Ordering System 
-### Language: PHP & MYSQL
+### Laptop Ordering System
 
-<a href="http://www.hyperion-company.epizy.com" target="_blank">visit here</a>
+
 
 
 
